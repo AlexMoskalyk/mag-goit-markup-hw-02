@@ -73,11 +73,11 @@ button {
 }
 
 .nav-menu__logo__accent {
-  color: var(--dark);
+  color: var(--dark, #2e2f42);
 }
 
 .nav-menu__logo__accent .footer-ver {
-  color: #f4f4fd;
+  color: var(--light, #f4f4fd);
 }
 
 .nav-menu__item {
