@@ -17,7 +17,6 @@
   --light: #f4f4fd;
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
-  --hero-background: #2e2f42;
 }
 
 body {
@@ -77,7 +76,7 @@ button {
   color: var(--dark, #2e2f42);
 }
 
-.nav-menu__logo__accent .footer-ver {
+.nav-menu__logo__accent.footer-ver {
   color: var(--light, #f4f4fd);
 }
 
@@ -88,9 +87,14 @@ button {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .nav-menu__item .nav-menu__link:hover,
 .nav-menu__item .nav-menu__link:focus {
   color: var(--pressed-state);
+}
+
+.nav-menu__link {
+  color: inherit;
 }
 
 .contacts {
