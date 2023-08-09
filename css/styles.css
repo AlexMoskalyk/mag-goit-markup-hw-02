@@ -202,6 +202,10 @@ button {
 /* ----------------PORTFOLIO------------------------ */
 
 .filter__btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
   color: var(--primary-brand);
   padding-top: 12px;
@@ -224,6 +228,8 @@ button {
   font-weight: 500;
   letter-spacing: 0.4px;
   color: var(--dark);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* ------------------FOOTER---------------- */
