@@ -78,12 +78,16 @@ button {
   color: var(--dark);
 }
 
+.nav-menu__logo__accent footer-ver {
+  color: #f4f4fd;
+}
+
 .nav-menu__item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark);
+  color: var(--hero-background);
 }
 .nav-menu__item .nav-menu__link:hover,
 .nav-menu__item .nav-menu__link:focus {
@@ -95,12 +99,13 @@ button {
 }
 
 .contacts__link {
+  letter-spacing: 0.02em;
   color: var(--text);
   font-style: normal;
 }
 
 .contacts__link:hover,
-contacts__link:focus {
+.contacts__link:focus {
   color: var(--pressed-state);
 }
 
@@ -111,6 +116,7 @@ contacts__link:focus {
 }
 
 .hero__title {
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -171,6 +177,17 @@ contacts__link:focus {
 .gallery__item {
   background-color: #ffffff;
 }
+.team {
+  background-color: #f4f4fd;
+}
+
+.team__item {
+  background-color: #ffffff;
+}
+
+.team__text {
+  letter-spacing: 0.02em;
+}
 
 .team__name {
   font-size: 20px;
@@ -217,6 +234,7 @@ contacts__link:focus {
 
 .footer-text {
   color: var(--light);
+  letter-spacing: 0.02em;
 }
 
 .footer-container {
