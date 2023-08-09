@@ -94,7 +94,7 @@ button {
 }
 
 .nav-menu__link {
-  color: inherit;
+  color: var(--dark);
 }
 
 .contacts {
