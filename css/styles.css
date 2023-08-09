@@ -59,34 +59,39 @@ button {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 /* -------------------HEADER--------------------- */
 
 .nav-menu__logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--dark);
-}
-
-.nav-menu__logo__accent {
   color: var(--primary-brand);
 }
 
-.nav-menu__link {
+.nav-menu__logo__accent {
+  color: var(--dark);
+}
+
+.nav-menu__item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--dark);
 }
-.nav-menu__link:hover,
-.nav-menu__link:focus {
+.nav-menu__item .nav-menu__link:hover,
+.nav-menu__item .nav-menu__link:focus {
   color: var(--pressed-state);
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts__link {
