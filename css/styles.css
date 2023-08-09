@@ -147,6 +147,10 @@ contacts__link:focus {
   color: var(--dark);
 }
 
+.features__text {
+  letter-spacing: 0.02em;
+}
+
 .section-title {
   font-size: 36px;
   font-style: normal;
